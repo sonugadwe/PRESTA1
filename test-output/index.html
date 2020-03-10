@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ShopCart_Application_suit">
+              <span class="suite-name border-failed">ShopCart Application suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ShopCart_Application_suit">
+                    <span>F:\FULL TIME\FinalProject\PRESTASHOPCART\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ShopCart_Application_suit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ShopCart_Application_suit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ShopCart_Application_suit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ShopCart_Application_suit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ShopCart_Application_suit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ShopCart_Application_suit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ShopCart_Application_suit" class="hide-methods failed suite-ShopCart_Application_suit"> (hide)</a> <!-- hide-methods failed suite-ShopCart_Application_suit -->
+                      <a href="#" panel-name="suite-ShopCart_Application_suit" class="show-methods failed suite-ShopCart_Application_suit"> (show)</a> <!-- show-methods failed suite-ShopCart_Application_suit -->
+                    </span>
+                    <div class="method-list-content failed suite-ShopCart_Application_suit">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="validateCustomerData(Abhi, k, ak, password)">validateCustomerData(Abhi, k, ak, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ShopCart_Application_suit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ShopCart_Application_suit" class="hide-methods passed suite-ShopCart_Application_suit"> (hide)</a> <!-- hide-methods passed suite-ShopCart_Application_suit -->
+                      <a href="#" panel-name="suite-ShopCart_Application_suit" class="show-methods passed suite-ShopCart_Application_suit"> (show)</a> <!-- show-methods passed suite-ShopCart_Application_suit -->
+                    </span>
+                    <div class="method-list-content passed suite-ShopCart_Application_suit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="ValidatAddressesTest">ValidatAddressesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="ValidatContactsTest">ValidatContactsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="ValidatCustomerServicesTest">ValidatCustomerServicesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="ValidatGroupsTest">ValidatGroupsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="ValidatShippingCartsTest">ValidatShippingCartsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="customerPage">customerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="validatTittlesTest">validatTittlesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateCreditSlips">validateCreditSlips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="validateCustomerData(Akash, v, av@gmail.com, password)">validateCustomerData(Akash, v, av@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="validateCustomerData(Ashu, s, as@gmail.com, password)">validateCustomerData(Ashu, s, as@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.CustomerPageTest" hash-for-method="validateCustomerData(Shubham, p, sp@gmail.com, password)">validateCustomerData(Shubham, p, sp@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateDeliverySlips">validateDeliverySlips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateInvoice">validateInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateMerchandise_Returns">validateMerchandise_Returns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateOrderMessages">validateOrderMessages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateOrders">validateOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShopCart_Application_suit" title="com.shopcart.qa.testcases.OrdersPageTest" hash-for-method="validateStatuses">validateStatuses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ShopCart_Application_suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ShopCart_Application_suit" class="panel ShopCart_Application_suit">
+          <div class="suite-ShopCart_Application_suit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.shopcart.qa.testcases.CustomerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerData(Abhi, k, ak, password)">
+                  </a> <!-- validateCustomerData(Abhi, k, ak, password) -->
+                  <span class="method-name">validateCustomerData</span>
+                  <span class="parameters">(Abhi, k, ak, password)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c90c031563687d0aa2866efdae8bf51c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.shopcart.qa.pages.CustomerPage.addNewCustomerFromExcel(CustomerPage.java:45)
+	at com.shopcart.qa.testcases.CustomerPageTest.validateCustomerData(CustomerPageTest.java:44)
+... Removed 28 stack frames<br/> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c90c031563687d0aa2866efdae8bf51c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.shopcart.qa.pages.CustomerPage.addNewCustomerFromExcel(CustomerPage.java:45)
+	at com.shopcart.qa.testcases.CustomerPageTest.validateCustomerData(CustomerPageTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br>org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)<br>com.shopcart.qa.pages.CustomerPage.addNewCustomerFromExcel(CustomerPage.java:45)<br>com.shopcart.qa.testcases.CustomerPageTest.validateCustomerData(CustomerPageTest.java:44)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShopCart_Application_suit-class-failed -->
+          <div class="suite-ShopCart_Application_suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shopcart.qa.testcases.OrdersPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerPage">
+                  </a> <!-- customerPage -->
+                  <span class="method-name">customerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreditSlips">
+                  </a> <!-- validateCreditSlips -->
+                  <span class="method-name">validateCreditSlips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeliverySlips">
+                  </a> <!-- validateDeliverySlips -->
+                  <span class="method-name">validateDeliverySlips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice">
+                  </a> <!-- validateInvoice -->
+                  <span class="method-name">validateInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMerchandise_Returns">
+                  </a> <!-- validateMerchandise_Returns -->
+                  <span class="method-name">validateMerchandise_Returns</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateOrderMessages">
+                  </a> <!-- validateOrderMessages -->
+                  <span class="method-name">validateOrderMessages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateOrders">
+                  </a> <!-- validateOrders -->
+                  <span class="method-name">validateOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatuses">
+                  </a> <!-- validateStatuses -->
+                  <span class="method-name">validateStatuses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShopCart_Application_suit-class-passed -->
+          <div class="suite-ShopCart_Application_suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shopcart.qa.testcases.CustomerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatAddressesTest">
+                  </a> <!-- ValidatAddressesTest -->
+                  <span class="method-name">ValidatAddressesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatContactsTest">
+                  </a> <!-- ValidatContactsTest -->
+                  <span class="method-name">ValidatContactsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatCustomerServicesTest">
+                  </a> <!-- ValidatCustomerServicesTest -->
+                  <span class="method-name">ValidatCustomerServicesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatGroupsTest">
+                  </a> <!-- ValidatGroupsTest -->
+                  <span class="method-name">ValidatGroupsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatShippingCartsTest">
+                  </a> <!-- ValidatShippingCartsTest -->
+                  <span class="method-name">ValidatShippingCartsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatTittlesTest">
+                  </a> <!-- validatTittlesTest -->
+                  <span class="method-name">validatTittlesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerData(Akash, v, av@gmail.com, password)">
+                  </a> <!-- validateCustomerData(Akash, v, av@gmail.com, password) -->
+                  <span class="method-name">validateCustomerData</span>
+                  <span class="parameters">(Akash, v, av@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerData(Ashu, s, as@gmail.com, password)">
+                  </a> <!-- validateCustomerData(Ashu, s, as@gmail.com, password) -->
+                  <span class="method-name">validateCustomerData</span>
+                  <span class="parameters">(Ashu, s, as@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerData(Shubham, p, sp@gmail.com, password)">
+                  </a> <!-- validateCustomerData(Shubham, p, sp@gmail.com, password) -->
+                  <span class="method-name">validateCustomerData</span>
+                  <span class="parameters">(Shubham, p, sp@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShopCart_Application_suit-class-passed -->
+        </div> <!-- panel ShopCart_Application_suit -->
+        <div panel-name="test-xml-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\FULL TIME\FinalProject\PRESTASHOPCART\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ShopCart Application suit&quot;&gt;
+  &lt;test name=&quot;ShopCart_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shopcart.qa.testcases.OrdersPageTest&quot;/&gt;
+      &lt;class name=&quot;com.shopcart.qa.testcases.CustomerPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ShopCart_Test --&gt;
+&lt;/suite&gt; &lt;!-- ShopCart Application suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ShopCart Application suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ShopCart_Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ShopCart Application suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ShopCart Application suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ShopCart_Application_suit');
+function tableData_ShopCart_Application_suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateInvoice')
+data.setCell(0, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(0, 3, 12314);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateStatuses')
+data.setCell(1, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(1, 3, 11975);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateOrders')
+data.setCell(2, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(2, 3, 11457);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateCustomerData')
+data.setCell(3, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(3, 3, 10578);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateCustomerData')
+data.setCell(4, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(4, 3, 10156);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateCustomerData')
+data.setCell(5, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(5, 3, 9744);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateCustomerData')
+data.setCell(6, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(6, 3, 9560);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateOrderMessages')
+data.setCell(7, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(7, 3, 8678);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidatContactsTest')
+data.setCell(8, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(8, 3, 7515);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateCreditSlips')
+data.setCell(9, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(9, 3, 7296);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateDeliverySlips')
+data.setCell(10, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(10, 3, 7017);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidatCustomerServicesTest')
+data.setCell(11, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(11, 3, 6890);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ValidatAddressesTest')
+data.setCell(12, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(12, 3, 6858);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidatShippingCartsTest')
+data.setCell(13, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(13, 3, 6722);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ValidatGroupsTest')
+data.setCell(14, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(14, 3, 6684);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateMerchandise_Returns')
+data.setCell(15, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(15, 3, 6080);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validatTittlesTest')
+data.setCell(16, 2, 'com.shopcart.qa.testcases.CustomerPageTest')
+data.setCell(16, 3, 5104);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'customerPage')
+data.setCell(17, 2, 'com.shopcart.qa.testcases.OrdersPageTest')
+data.setCell(17, 3, 4);
+window.suiteTableData['ShopCart_Application_suit']= { tableData: data, tableDiv: 'times-div-ShopCart_Application_suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-ShopCart_Application_suit">
+              </div> <!-- times-div-ShopCart_Application_suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ShopCart Application suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ShopCart_Application_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shopcart.qa.testcases.OrdersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateOrders</span>
+                <span class="method-start">18509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateInvoice</span>
+                <span class="method-start">49889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateMerchandise_Returns</span>
+                <span class="method-start">82727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDeliverySlips</span>
+                <span class="method-start">103838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">110857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreditSlips</span>
+                <span class="method-start">126491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateStatuses</span>
+                <span class="method-start">159014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">170990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerPage</span>
+                <span class="method-start">217930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">217937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateOrderMessages</span>
+                <span class="method-start">250205 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shopcart.qa.testcases.CustomerPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">263831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerData(Ashu, s, as@gmail.com, password)</span>
+                <span class="method-start">277869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">288449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerData(Akash, v, av@gmail.com, password)</span>
+                <span class="method-start">302303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">312052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerData(Shubham, p, sp@gmail.com, password)</span>
+                <span class="method-start">325123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">335282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCustomerData(Abhi, k, ak, password)</span>
+                <span class="method-start">353565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">363163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatAddressesTest</span>
+                <span class="method-start">376728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">383588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatGroupsTest</span>
+                <span class="method-start">398570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">405255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatShippingCartsTest</span>
+                <span class="method-start">418293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">425016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatCustomerServicesTest</span>
+                <span class="method-start">441969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">448861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatContactsTest</span>
+                <span class="method-start">463424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">470941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatTittlesTest</span>
+                <span class="method-start">483814 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

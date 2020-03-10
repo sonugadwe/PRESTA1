@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShopCart Application suit]">
+  <test name="ShopCart_Test(failed)">
+    <classes>
+      <class name="com.shopcart.qa.testcases.OrdersPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.OrdersPageTest -->
+      <class name="com.shopcart.qa.testcases.CustomerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCustomerData" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.CustomerPageTest -->
+    </classes>
+  </test> <!-- ShopCart_Test(failed) -->
+</suite> <!-- Failed suite [ShopCart Application suit] -->

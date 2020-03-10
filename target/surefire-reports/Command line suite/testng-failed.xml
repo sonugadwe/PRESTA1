@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.shopcart.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.LoginPageTest -->
+      <class name="com.shopcart.qa.testcases.CustomerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ExitPath"/>
+          <include name="ValidatContactsTest"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.CustomerPageTest -->
+      <class name="com.shopcart.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.HomePageTest -->
+      <class name="com.shopcart.qa.testcases.OrdersPageTest">
+        <methods>
+          <include name="validateOrders"/>
+          <include name="validateInvoice"/>
+          <include name="validateStatuses"/>
+          <include name="validateCreditSlips"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateOrderMessages"/>
+          <include name="validateDeliverySlips"/>
+          <include name="validateMerchandise_Returns"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.OrdersPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
