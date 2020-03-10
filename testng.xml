@@ -8,7 +8,7 @@
 			<class name="com.shopcart.qa.testcases.TC_C_CatalogPageTest1"/>
 			<class name="com.shopcart.qa.testcases.TC_D_OrdersPageTest" />
 			<class name="com.shopcart.qa.testcases.TC_E_CustomerPageTest" />
-
+  
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
