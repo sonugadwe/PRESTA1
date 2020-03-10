@@ -159,8 +159,8 @@ public class CatalogPage1 extends TestBase {
 
 	public void verifyCategoreis() {
 		// TestUtil.actions(catalogLink, driver);
-		Actions mov = new Actions(driver);
-		mov.moveToElement(cat_Link).build().perform();
+		//Actions mov = new Actions(driver);
+		//mov.moveToElement(cat_Link).build().perform();
 		TestUtil.actions(cat_Link, driver);
 		driver.findElement(By.xpath("//*[@id='subtab-AdminCategories']/a")).click();
 	}
