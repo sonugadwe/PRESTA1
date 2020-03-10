@@ -146,7 +146,7 @@ public class CatalogPage1 extends TestBase {
 
 		WebElement options = driver.findElement(By.xpath("//input[@name=\"online_only\"]"));
 		options.click();
-
+ 
 		WebElement condition = driver.findElement(By.xpath("//select[@id='condition']"));
 		condition.click();
 		Select s2 = new Select(condition);
