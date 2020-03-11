@@ -173,6 +173,7 @@ public class Utils {
 		((JavascriptExecutor) driver).executeScript("window.location =(" + URL + ")");
 
 	}
+	
 
 	/*public static void ListOfWebElement(String xpath, String EnterListOfValuesToAssert) {
 

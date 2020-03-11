@@ -31,45 +31,68 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">25</td><td class="numi">25</td><td class="numi">0</td><td class="numi_attn">8</td><td class="numi">1,010.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">9</td><td class="numi">8</td><td class="numi_attn">22</td><td class="numi_attn">6</td><td class="numi">454.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907888733</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907938624</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="4">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m3"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907881117</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m4"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907881117</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m5"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907881117</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m6"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907881117</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m7"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907888733</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m8"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907938624</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m9"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907881117</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m10"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907888733</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="2">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m11"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907938624</td><td class="numi">0</td></tr><tr class="failedeven"><td><a href="#m12"><b>setUp</b>  </a></td><td class="numi">1</td><td>1583907938624</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="2">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m13"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1583907876654</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m14"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1583907876654</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Command line test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="5">com.shopcart.qa.testcases.OrdersPageTest</td><td><a href="#m1"><b>validateOrders</b>  </a></td><td class="numi">1</td><td>1583823261686</td><td class="numi">38695</td></tr><tr class="failedodd"><td><a href="#m2"><b>validateInvoice</b>  </a></td><td class="numi">1</td><td>1583823383368</td><td class="numi">40937</td></tr><tr class="failedodd"><td><a href="#m3"><b>validateMerchandise_Returns</b>  </a></td><td class="numi">1</td><td>1583823503296</td><td class="numi">38013</td></tr><tr class="failedodd"><td><a href="#m4"><b>validateDeliverySlips</b>  </a></td><td class="numi">1</td><td>1583823637338</td><td class="numi">40297</td></tr><tr class="failedodd"><td><a href="#m5"><b>validateCreditSlips</b>  </a></td><td class="numi">1</td><td>1583823757926</td><td class="numi">44542</td></tr>
-<tr class="failedeven"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m6"><b>ValidatContactsTest</b>  </a></td><td class="numi">1</td><td>1583823818954</td><td class="numi">35889</td></tr>
-<tr class="failedodd"><td rowspan="2">com.shopcart.qa.testcases.OrdersPageTest</td><td><a href="#m7"><b>validateStatuses</b>  </a></td><td class="numi">1</td><td>1583823885321</td><td class="numi">34632</td></tr><tr class="failedodd"><td><a href="#m8"><b>validateOrderMessages</b>  </a></td><td class="numi">1</td><td>1583823976847</td><td class="numi">36666</td></tr>
+<tr class="failedodd"><td rowspan="4">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m15"><b>validateCustomerData</b>  </a></td><td class="numi">1</td><td>1583907747970</td><td class="numi">54840</td></tr><tr class="failedodd"><td><a href="#m16"><b>validateCustomerData</b>  </a></td><td class="numi">1</td><td>1583907747970</td><td class="numi">54840</td></tr><tr class="failedodd"><td><a href="#m17"><b>validateCustomerData</b>  </a></td><td class="numi">1</td><td>1583907747970</td><td class="numi">54840</td></tr><tr class="failedodd"><td><a href="#m18"><b>validateCustomerData</b>  </a></td><td class="numi">1</td><td>1583907747970</td><td class="numi">54840</td></tr>
+<tr class="failedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m19"><b>validateInvoice</b>  </a></td><td class="numi">1</td><td>1583907867393</td><td class="numi">9251</td></tr>
+<tr class="failedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m20"><b>verifyQuickAcessTest</b>  </a></td><td class="numi">1</td><td>1583907924682</td><td class="numi">9652</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m21"><b>ExitPath</b>  </a></td><td class="numi">6</td><td>1583907888732</td><td class="numi">70220</td></tr><tr class="skippedodd"><td><a href="#m22"><b>ExitPath</b>  </a></td><td class="numi">6</td><td>1583907888732</td><td class="numi">70220</td></tr><tr class="skippedodd"><td><a href="#m23"><b>ExitPath</b>  </a></td><td class="numi">6</td><td>1583907888732</td><td class="numi">70220</td></tr><tr class="skippedodd"><td><a href="#m24"><b>ExitPath</b>  </a></td><td class="numi">6</td><td>1583907888732</td><td class="numi">70220</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m25"><b>setUp</b>  </a></td><td class="numi">3</td><td>1583907938620</td><td class="numi">20314</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m26"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907958927</td><td class="numi">28</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m27"><b>setUp</b>  </a></td><td class="numi">6</td><td>1583907938614</td><td class="numi">20331</td></tr>
+<tr class="skippedodd"><td rowspan="4">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m28"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907938618</td><td class="numi">20333</td></tr><tr class="skippedodd"><td><a href="#m29"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907938618</td><td class="numi">20333</td></tr><tr class="skippedodd"><td><a href="#m30"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907938618</td><td class="numi">20333</td></tr><tr class="skippedodd"><td><a href="#m31"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907938618</td><td class="numi">20333</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m32"><b>setUp</b>  </a></td><td class="numi">3</td><td>1583907938620</td><td class="numi">20314</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m33"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907958927</td><td class="numi">28</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m34"><b>setUp</b>  </a></td><td class="numi">6</td><td>1583907938614</td><td class="numi">20331</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m35"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907938618</td><td class="numi">20333</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m36"><b>setUp</b>  </a></td><td class="numi">3</td><td>1583907938620</td><td class="numi">20314</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m37"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907958927</td><td class="numi">28</td></tr><tr class="skippedodd"><td><a href="#m38"><b>setUp</b>  </a></td><td class="numi">5</td><td>1583907958927</td><td class="numi">28</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m39"><b>tearDown</b>  </a></td><td class="numi">4</td><td>1583907900774</td><td class="numi">58161</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m40"><b>tearDown</b>  </a></td><td class="numi">6</td><td>1583907958919</td><td class="numi">38</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m41"><b>tearDown</b>  </a></td><td class="numi">6</td><td>1583907938616</td><td class="numi">20331</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m42"><b>tearDown</b>  </a></td><td class="numi">4</td><td>1583907900774</td><td class="numi">58161</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m43"><b>tearDown</b>  </a></td><td class="numi">6</td><td>1583907958919</td><td class="numi">38</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m44"><b>tearDown</b>  </a></td><td class="numi">6</td><td>1583907938616</td><td class="numi">20331</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m45"><b>tearDown</b>  </a></td><td class="numi">6</td><td>1583907958919</td><td class="numi">38</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m46"><b>CatalogPageTest</b>  </a></td><td class="numi">1</td><td>1583907958956</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="4">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m47"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1583907958934</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m48"><b>ShopVersionTest</b>  </a></td><td class="numi">1</td><td>1583907938622</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m49"><b>ShopcartImgTest</b>  </a></td><td class="numi">1</td><td>1583907958925</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m50"><b>ShoplogoImg</b>  </a></td><td class="numi">1</td><td>1583907900773</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="5">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m51"><b>ValidatAddressesTest</b>  </a></td><td class="numi">1</td><td>1583907888731</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m52"><b>ValidatContactsTest</b>  </a></td><td class="numi">1</td><td>1583907958939</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m53"><b>ValidatCustomerServicesTest</b>  </a></td><td class="numi">1</td><td>1583907958931</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m54"><b>ValidatGroupsTest</b>  </a></td><td class="numi">1</td><td>1583907938618</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m55"><b>ValidatShippingCartsTest</b>  </a></td><td class="numi">1</td><td>1583907958922</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m56"><b>customerPage</b>  </a></td><td class="numi">1</td><td>1583907958944</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m57"><b>menuListSizeTest</b>  </a></td><td class="numi">1</td><td>1583907958949</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m58"><b>searchMenuTest</b>  </a></td><td class="numi">1</td><td>1583907958953</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m59"><b>validatTittlesTest</b>  </a></td><td class="numi">1</td><td>1583907958951</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="5">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m60"><b>validateCreditSlips</b>  </a></td><td class="numi">1</td><td>1583907958930</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m61"><b>validateDeliverySlips</b>  </a></td><td class="numi">1</td><td>1583907958920</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m62"><b>validateMerchandise_Returns</b>  </a></td><td class="numi">1</td><td>1583907938615</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m63"><b>validateOrderMessages</b>  </a></td><td class="numi">1</td><td>1583907958947</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m64"><b>validateStatuses</b>  </a></td><td class="numi">1</td><td>1583907958937</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="3">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m65"><b>verifyDashbrdTest</b>  </a></td><td class="numi">1</td><td>1583907958942</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m66"><b>verifyHelpLinkTest</b>  </a></td><td class="numi">1</td><td>1583907958927</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m67"><b>verifySystemAdminLinkTest</b>  </a></td><td class="numi">1</td><td>1583907958919</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Command line test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="4">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m9"><b>validateCustomerData</b>  </a></td><td class="numi">4</td><td>1583823121801</td><td class="numi">93606</td></tr><tr class="passedodd"><td><a href="#m10"><b>validateCustomerData</b>  </a></td><td class="numi">4</td><td>1583823121801</td><td class="numi">93606</td></tr><tr class="passedodd"><td><a href="#m11"><b>validateCustomerData</b>  </a></td><td class="numi">4</td><td>1583823121801</td><td class="numi">93606</td></tr><tr class="passedodd"><td><a href="#m12"><b>validateCustomerData</b>  </a></td><td class="numi">4</td><td>1583823121801</td><td class="numi">93606</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m13"><b>verifyHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1583823232027</td><td class="numi">58</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.LoginPageTest</td><td><a href="#m14"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1583823246273</td><td class="numi">315</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m15"><b>ValidatAddressesTest</b>  </a></td><td class="numi">1</td><td>1583823319354</td><td class="numi">12197</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m16"><b>verifyCartTest</b>  </a></td><td class="numi">1</td><td>1583823348302</td><td class="numi">6210</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.LoginPageTest</td><td><a href="#m17"><b>loginPageTitleTest</b>  </a></td><td class="numi">1</td><td>1583823369073</td><td class="numi">4</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m18"><b>ValidatGroupsTest</b>  </a></td><td class="numi">1</td><td>1583823440876</td><td class="numi">7991</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m19"><b>verifyQuickAcessTest</b>  </a></td><td class="numi">1</td><td>1583823464981</td><td class="numi">7373</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.LoginPageTest</td><td><a href="#m20"><b>ShoplogoImg</b>  </a></td><td class="numi">1</td><td>1583823488740</td><td class="numi">39</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m21"><b>ValidatShippingCartsTest</b>  </a></td><td class="numi">1</td><td>1583823557132</td><td class="numi">11622</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m22"><b>verifySystemAdminLinkTest</b>  </a></td><td class="numi">1</td><td>1583823588541</td><td class="numi">7879</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.LoginPageTest</td><td><a href="#m23"><b>ShopVersionTest</b>  </a></td><td class="numi">1</td><td>1583823617502</td><td class="numi">56</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m24"><b>ValidatCustomerServicesTest</b>  </a></td><td class="numi">1</td><td>1583823696270</td><td class="numi">7682</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m25"><b>verifyHelpLinkTest</b>  </a></td><td class="numi">1</td><td>1583823721519</td><td class="numi">6645</td></tr>
-<tr class="passedodd"><td rowspan="2">com.shopcart.qa.testcases.LoginPageTest</td><td><a href="#m26"><b>ShopcartImgTest</b>  </a></td><td class="numi">1</td><td>1583823743503</td><td class="numi">61</td></tr><tr class="passedodd"><td><a href="#m27"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1583823869623</td><td class="numi">1</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m28"><b>verifyDashbrdTest</b>  </a></td><td class="numi">1</td><td>1583823935884</td><td class="numi">8274</td></tr>
-<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.OrdersPageTest</td><td><a href="#m29"><b>customerPage</b>  </a></td><td class="numi">1</td><td>1583823964136</td><td class="numi">0</td></tr>
-<tr class="passedeven"><td rowspan="1">com.shopcart.qa.testcases.CustomerPageTest</td><td><a href="#m30"><b>validatTittlesTest</b>  </a></td><td class="numi">1</td><td>1583824030080</td><td class="numi">7240</td></tr>
-<tr class="passedodd"><td rowspan="3">com.shopcart.qa.testcases.HomePageTest</td><td><a href="#m31"><b>menuListSizeTest</b>  </a></td><td class="numi">1</td><td>1583824056548</td><td class="numi">4642</td></tr><tr class="passedodd"><td><a href="#m32"><b>searchMenuTest</b>  </a></td><td class="numi">1</td><td>1583824076036</td><td class="numi">6276</td></tr><tr class="passedodd"><td><a href="#m33"><b>CatalogPageTest</b>  </a></td><td class="numi">1</td><td>1583824102652</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="2">com.shopcart.qa.testcases.TC_A_LoginPageTest</td><td><a href="#m68"><b>loginPageTitleTest</b>  </a></td><td class="numi">1</td><td>1583907818765</td><td class="numi">9</td></tr><tr class="passedodd"><td><a href="#m69"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1583907559943</td><td class="numi">1649</td></tr>
+<tr class="passedeven"><td rowspan="4">com.shopcart.qa.testcases.TC_E_CustomerPageTest</td><td><a href="#m70"><b>validateCustomerData</b>  </a></td><td class="numi">3</td><td>1583907637808</td><td class="numi">88122</td></tr><tr class="passedeven"><td><a href="#m71"><b>validateCustomerData</b>  </a></td><td class="numi">3</td><td>1583907637808</td><td class="numi">88122</td></tr><tr class="passedeven"><td><a href="#m72"><b>validateCustomerData</b>  </a></td><td class="numi">3</td><td>1583907637808</td><td class="numi">88122</td></tr><tr class="passedeven"><td><a href="#m73"><b>validateCustomerData</b>  </a></td><td class="numi">3</td><td>1583907637808</td><td class="numi">88122</td></tr>
+<tr class="passedodd"><td rowspan="1">com.shopcart.qa.testcases.TC_D_OrdersPageTest</td><td><a href="#m74"><b>validateOrders</b>  </a></td><td class="numi">1</td><td>1583907600090</td><td class="numi">14663</td></tr>
+<tr class="passedeven"><td rowspan="2">com.shopcart.qa.testcases.TC_B_HomePageTest</td><td><a href="#m75"><b>verifyCartTest</b>  </a></td><td class="numi">1</td><td>1583907840143</td><td class="numi">9550</td></tr><tr class="passedeven"><td><a href="#m76"><b>verifyHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1583907582744</td><td class="numi">362</td></tr>
 </table>
 <h1>Command line test</h1>
-<h2 id="m1">com.shopcart.qa.testcases.CustomerPageTest:ValidatContactsTest</h2>
+<h2 id="m1">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
 <div style="padding-left:3em">
-<p>element not interactable
+<p>chrome not reachable
   (Session info: chrome=80.0.3987.132)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cd4031408755c0154cb8bddaa5a44ca7</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0c9944acd752bf7e6364a66d9d5b9299</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -80,22 +103,22 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.CustomerPage.VerifyContacts(CustomerPage.java:126)
-<br/>at com.shopcart.qa.testcases.CustomerPageTest.ValidatContactsTest(CustomerPageTest.java:78)
-<br/>35 lines not shown
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+<br/>at com.shopcart.qa.testcases.TC_D_OrdersPageTest.tearDown(TC_D_OrdersPageTest.java:66)
+<br/>37 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.shopcart.qa.testcases.OrdersPageTest:validateOrderMessages</h2>
+<h2 id="m2">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
 <div style="padding-left:3em">
-<p>element not interactable
+<p>unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
   (Session info: chrome=80.0.3987.132)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 659953610f181c5be7521f18d827b56b</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 455831a9ebd49beeeb3a062598f6f0d9</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -106,22 +129,22 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.VerifyOrderMessages(OrdersPage.java:55)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateOrderMessages(OrdersPageTest.java:55)
-<br/>35 lines not shown
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+<br/>at com.shopcart.qa.base.TestBase.initialization(TestBase.java:47)
+<br/>at com.shopcart.qa.testcases.TC_E_CustomerPageTest.setUp(TC_E_CustomerPageTest.java:26)
+<br/>37 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.shopcart.qa.testcases.OrdersPageTest:validateOrders</h2>
+<h2 id="m3">com.shopcart.qa.testcases.TC_A_LoginPageTest:setUp</h2>
 <div style="padding-left:3em">
-<p>element not interactable
+<p>no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=80.0.3987.132)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 52ced8496c87108f2068413e145c1ee0</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e78d0fabc298e47500e1fd92ccc98a11</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -132,22 +155,89 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.Orders(OrdersPage.java:22)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateOrders(OrdersPageTest.java:31)
-<br/>35 lines not shown
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+<br/>at com.shopcart.qa.base.TestBase.initialization(TestBase.java:48)
+<br/>at com.shopcart.qa.testcases.TC_A_LoginPageTest.setUp(TC_A_LoginPageTest.java:22)
+<br/>37 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.shopcart.qa.testcases.OrdersPageTest:validateMerchandise_Returns</h2>
+<h2 id="m4">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
 <div style="padding-left:3em">
-<p>element not interactable
+<p>session not created
+from chrome not reachable
   (Session info: chrome=80.0.3987.132)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0065A113+1548563]
+	Ordinal0 [0x005DDDA1+1039777]
+	Ordinal0 [0x0055E32E+516910]
+	Ordinal0 [0x00558012+491538]
+	Ordinal0 [0x005586EB+493291]
+	Ordinal0 [0x00559855+497749]
+	Ordinal0 [0x00555885+481413]
+	Ordinal0 [0x0055F0D0+520400]
+	Ordinal0 [0x0050C030+180272]
+	Ordinal0 [0x0050B59D+177565]
+	Ordinal0 [0x005095FB+169467]
+	Ordinal0 [0x004F160A+71178]
+	Ordinal0 [0x004F2690+75408]
+	Ordinal0 [0x004F2629+75305]
+	Ordinal0 [0x005F71B7+1143223]
+	GetHandleVerifier [0x006F2B46+507814]
+	GetHandleVerifier [0x006F2864+507076]
+	GetHandleVerifier [0x006F9F47+537511]
+	GetHandleVerifier [0x006F3402+510050]
+	Ordinal0 [0x005EF29C+1110684]
+	Ordinal0 [0x005F938B+1151883]
+	Ordinal0 [0x005F94F3+1152243]
+	Ordinal0 [0x005F83F5+1147893]
+	BaseThreadInitThunk [0x770F6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77507B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77507B44+180]
+</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at com.shopcart.qa.base.TestBase.initialization(TestBase.java:43)
+<br/>at com.shopcart.qa.testcases.TC_B_HomePageTest.setUp(TC_B_HomePageTest.java:24)
+<br/>37 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.shopcart.qa.testcases.TC_B_HomePageTest:verifyQuickAcessTest</h2>
+<div style="padding-left:3em">
+<p>javascript error: Failed to execute &apos;elementsFromPoint&apos; on &apos;Document&apos;: The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dad683d6aea4f6b114981cb34f28735</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a1099785f40f8a3aeae951d366cc1c3</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -158,162 +248,288 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.verifyMerchandise_Returns(OrdersPage.java:31)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateMerchandise_Returns(OrdersPageTest.java:39)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+<br/>at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+<br/>at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+<br/>at com.shopcart.qa.pages.HomePage.clickOnQuickAcessLink(HomePage.java:68)
+<br/>at com.shopcart.qa.testcases.TC_B_HomePageTest.verifyQuickAcessTest(TC_B_HomePageTest.java:47)
 <br/>35 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.shopcart.qa.testcases.OrdersPageTest:validateInvoice</h2>
+<h2 id="m6">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateInvoice</h2>
 <div style="padding-left:3em">
-<p>element not interactable
-  (Session info: chrome=80.0.3987.132)
+<p>java.lang.reflect.InvocationTargetException
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c43e41db635bf44e719d1168f3aa24a6</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+<br/>at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+<br/>at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+<br/>at org.openqa.selenium.json.Json.toJson(Json.java:42)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.verifyInvoice(OrdersPage.java:27)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateInvoice(OrdersPageTest.java:35)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+<br/>at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+<br/>at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+<br/>at com.shopcart.qa.pages.OrdersPage.verifyInvoice(OrdersPage.java:26)
+<br/>at com.shopcart.qa.testcases.TC_D_OrdersPageTest.validateInvoice(TC_D_OrdersPageTest.java:35)
 <br/>35 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.shopcart.qa.testcases.OrdersPageTest:validateDeliverySlips</h2>
-<div style="padding-left:3em">
-<p>element not interactable
-  (Session info: chrome=80.0.3987.132)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cbf1f22ebe17ae544932fbe57976d84f</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<p>Caused by null</p>
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+<br/>at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+<br/>at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+<br/>at org.openqa.selenium.json.Json.toJson(Json.java:42)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.VerifyDeliverySlips(OrdersPage.java:36)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateDeliverySlips(OrdersPageTest.java:43)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+<br/>at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+<br/>at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+<br/>at com.shopcart.qa.pages.OrdersPage.verifyInvoice(OrdersPage.java:26)
+<br/>at com.shopcart.qa.testcases.TC_D_OrdersPageTest.validateInvoice(TC_D_OrdersPageTest.java:35)
 <br/>35 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">com.shopcart.qa.testcases.OrdersPageTest:validateCreditSlips</h2>
-<div style="padding-left:3em">
-<p>element not interactable
-  (Session info: chrome=80.0.3987.132)
+<p>Caused by Cannot locate an element using xpath=//*[@id=&apos;maintab-AdminParentOrders&apos;]/a/span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d78e7ee465c7f88d2524779ae8d2b275</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy8.getWrappedElement(Unknown Source)
+<br/>at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+<br/>at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+<br/>at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+<br/>at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+<br/>at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+<br/>at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+<br/>at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+<br/>at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+<br/>at org.openqa.selenium.json.Json.toJson(Json.java:42)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.VerifyCreditSlips(OrdersPage.java:43)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateCreditSlips(OrdersPageTest.java:47)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+<br/>at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+<br/>at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+<br/>at com.shopcart.qa.pages.OrdersPage.verifyInvoice(OrdersPage.java:26)
+<br/>at com.shopcart.qa.testcases.TC_D_OrdersPageTest.validateInvoice(TC_D_OrdersPageTest.java:35)
 <br/>35 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">com.shopcart.qa.testcases.OrdersPageTest:validateStatuses</h2>
-<div style="padding-left:3em">
-<p>element not interactable
-  (Session info: chrome=80.0.3987.132)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8e776581680a94e34b0e45480a50b9e0</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-<br/>at com.shopcart.qa.pages.OrdersPage.VerifyStatuses(OrdersPage.java:49)
-<br/>at com.shopcart.qa.testcases.OrdersPageTest.validateStatuses(OrdersPageTest.java:51)
-<br/>35 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">com.shopcart.qa.testcases.LoginPageTest:ShopcartImgTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">com.shopcart.qa.testcases.HomePageTest:searchMenuTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">com.shopcart.qa.testcases.HomePageTest:verifyHelpLinkTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">com.shopcart.qa.testcases.CustomerPageTest:validateCustomerData</h2>
+<h2 id="m7">com.shopcart.qa.testcases.TC_E_CustomerPageTest:validateCustomerData</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
-<tr class="param stripe"><td>Ashu</td>
-<td>s</td>
-<td>as@gmail.com</td>
+<tr class="param stripe"><td>Abhi</td>
+<td>k</td>
+<td>ak</td>
 <td>password</td>
 </tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;gender_1&apos;]&quot;}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5E3MODR9&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f9389f31446a8d7d85d909998913b4b
+*** Element info: {Using=xpath, value=//*[@id=&apos;gender_1&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.shopcart.qa.pages.CustomerPage.addNewCustomerFromExcel(CustomerPage.java:51)
+<br/>at com.shopcart.qa.testcases.TC_E_CustomerPageTest.validateCustomerData(TC_E_CustomerPageTest.java:44)
+<br/>35 lines not shown
+</td></tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">com.shopcart.qa.testcases.CustomerPageTest:validatTittlesTest</h2>
+<h2 id="m8">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">com.shopcart.qa.testcases.OrdersPageTest:customerPage</h2>
+<h2 id="m9">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m15">com.shopcart.qa.testcases.CustomerPageTest:ValidatAddressesTest</h2>
+<h2 id="m10">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m16">com.shopcart.qa.testcases.LoginPageTest:ShopVersionTest</h2>
+<h2 id="m11">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m17">com.shopcart.qa.testcases.CustomerPageTest:ValidatShippingCartsTest</h2>
+<h2 id="m12">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m18">com.shopcart.qa.testcases.LoginPageTest:ShoplogoImg</h2>
+<h2 id="m13">com.shopcart.qa.testcases.TC_A_LoginPageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m19">com.shopcart.qa.testcases.HomePageTest:CatalogPageTest</h2>
+<h2 id="m14">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m20">com.shopcart.qa.testcases.HomePageTest:verifyQuickAcessTest</h2>
+<h2 id="m15">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m21">com.shopcart.qa.testcases.CustomerPageTest:ValidatCustomerServicesTest</h2>
+<h2 id="m16">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m22">com.shopcart.qa.testcases.HomePageTest:menuListSizeTest</h2>
+<h2 id="m17">com.shopcart.qa.testcases.TC_A_LoginPageTest:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m23">com.shopcart.qa.testcases.LoginPageTest:loginTest</h2>
+<h2 id="m18">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m24">com.shopcart.qa.testcases.LoginPageTest:loginPageTitleTest</h2>
+<h2 id="m19">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m25">com.shopcart.qa.testcases.HomePageTest:verifyHomePageTitleTest</h2>
+<h2 id="m20">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m26">com.shopcart.qa.testcases.HomePageTest:verifySystemAdminLinkTest</h2>
+<h2 id="m21">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m27">com.shopcart.qa.testcases.CustomerPageTest:validateCustomerData</h2>
+<h2 id="m22">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.shopcart.qa.testcases.TC_A_LoginPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ExitPath</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.shopcart.qa.testcases.TC_A_LoginPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.shopcart.qa.testcases.TC_A_LoginPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.shopcart.qa.testcases.TC_A_LoginPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.shopcart.qa.testcases.TC_A_LoginPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.shopcart.qa.testcases.TC_D_OrdersPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.shopcart.qa.testcases.TC_D_OrdersPageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.shopcart.qa.testcases.TC_B_HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.shopcart.qa.testcases.TC_E_CustomerPageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.shopcart.qa.testcases.TC_B_HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ValidatAddressesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateCreditSlips</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">com.shopcart.qa.testcases.TC_A_LoginPageTest:ShoplogoImg</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ValidatContactsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ValidatCustomerServicesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.shopcart.qa.testcases.TC_D_OrdersPageTest:customerPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ValidatGroupsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">com.shopcart.qa.testcases.TC_B_HomePageTest:verifySystemAdminLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">com.shopcart.qa.testcases.TC_A_LoginPageTest:ShopVersionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">com.shopcart.qa.testcases.TC_B_HomePageTest:verifyDashbrdTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">com.shopcart.qa.testcases.TC_B_HomePageTest:searchMenuTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">com.shopcart.qa.testcases.TC_B_HomePageTest:verifyHelpLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">com.shopcart.qa.testcases.TC_A_LoginPageTest:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">com.shopcart.qa.testcases.TC_B_HomePageTest:menuListSizeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateMerchandise_Returns</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateOrderMessages</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">com.shopcart.qa.testcases.TC_E_CustomerPageTest:ValidatShippingCartsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">com.shopcart.qa.testcases.TC_E_CustomerPageTest:validatTittlesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">com.shopcart.qa.testcases.TC_B_HomePageTest:CatalogPageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateDeliverySlips</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">com.shopcart.qa.testcases.TC_A_LoginPageTest:ShopcartImgTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateStatuses</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">com.shopcart.qa.testcases.TC_B_HomePageTest:verifyCartTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">com.shopcart.qa.testcases.TC_B_HomePageTest:verifyHomePageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">com.shopcart.qa.testcases.TC_E_CustomerPageTest:validateCustomerData</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
 <tr class="param stripe"><td>Akash</td>
@@ -323,7 +539,23 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 </tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m28">com.shopcart.qa.testcases.CustomerPageTest:validateCustomerData</h2>
+<h2 id="m74">com.shopcart.qa.testcases.TC_A_LoginPageTest:loginPageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">com.shopcart.qa.testcases.TC_D_OrdersPageTest:validateOrders</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">com.shopcart.qa.testcases.TC_E_CustomerPageTest:validateCustomerData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Ashu</td>
+<td>s</td>
+<td>as@gmail.com</td>
+<td>password</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">com.shopcart.qa.testcases.TC_A_LoginPageTest:loginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">com.shopcart.qa.testcases.TC_E_CustomerPageTest:validateCustomerData</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
 <tr class="param stripe"><td>Shubham</td>
@@ -332,23 +564,5 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <td>password</td>
 </tr>
 </table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m29">com.shopcart.qa.testcases.CustomerPageTest:ValidatGroupsTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m30">com.shopcart.qa.testcases.CustomerPageTest:validateCustomerData</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
-<tr class="param stripe"><td>Abhi</td>
-<td>k</td>
-<td>ak</td>
-<td>password</td>
-</tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m31">com.shopcart.qa.testcases.LoginPageTest:HomePage</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m32">com.shopcart.qa.testcases.HomePageTest:verifyDashbrdTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m33">com.shopcart.qa.testcases.HomePageTest:verifyCartTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

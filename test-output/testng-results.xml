@@ -1,83 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="18" passed="17">
+<testng-results skipped="0" failed="5" total="40" passed="35">
   <reporter-output>
   </reporter-output>
-  <suite name="ShopCart Application suit" duration-ms="488929" started-at="2020-03-10T07:15:15Z" finished-at="2020-03-10T07:23:24Z">
+  <suite name="ShopCart Application suit" duration-ms="1281735" started-at="2020-03-11T06:30:33Z" finished-at="2020-03-11T06:51:54Z">
     <groups>
     </groups>
-    <test name="ShopCart_Test" duration-ms="488929" started-at="2020-03-10T07:15:15Z" finished-at="2020-03-10T07:23:24Z">
-      <class name="com.shopcart.qa.testcases.OrdersPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="18509" started-at="2020-03-10T12:45:15Z" finished-at="2020-03-10T12:45:34Z">
+    <test name="ShopCart_Test" duration-ms="1281735" started-at="2020-03-11T06:30:33Z" finished-at="2020-03-11T06:51:54Z">
+      <class name="com.shopcart.qa.testcases.TC_E_CustomerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="14527" started-at="2020-03-11T12:16:53Z" finished-at="2020-03-11T12:17:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateOrders()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateOrders" duration-ms="11457" started-at="2020-03-10T12:45:34Z" finished-at="2020-03-10T12:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateOrders -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="19921" started-at="2020-03-10T12:45:45Z" finished-at="2020-03-10T12:46:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateInvoice()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateInvoice" duration-ms="12314" started-at="2020-03-10T12:46:05Z" finished-at="2020-03-10T12:46:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvoice -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="20522" started-at="2020-03-10T12:46:18Z" finished-at="2020-03-10T12:46:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateMerchandise_Returns()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateMerchandise_Returns" duration-ms="6080" started-at="2020-03-10T12:46:38Z" finished-at="2020-03-10T12:46:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMerchandise_Returns -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="15028" started-at="2020-03-10T12:46:44Z" finished-at="2020-03-10T12:46:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateDeliverySlips()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateDeliverySlips" duration-ms="7017" started-at="2020-03-10T12:46:59Z" finished-at="2020-03-10T12:47:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateDeliverySlips -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="15634" started-at="2020-03-10T12:47:06Z" finished-at="2020-03-10T12:47:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreditSlips()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateCreditSlips" duration-ms="7296" started-at="2020-03-10T12:47:22Z" finished-at="2020-03-10T12:47:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreditSlips -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="25225" started-at="2020-03-10T12:47:29Z" finished-at="2020-03-10T12:47:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateStatuses()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateStatuses" duration-ms="11975" started-at="2020-03-10T12:47:54Z" finished-at="2020-03-10T12:48:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateStatuses -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="46940" started-at="2020-03-10T12:48:06Z" finished-at="2020-03-10T12:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="customerPage()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="customerPage" duration-ms="4" started-at="2020-03-10T12:48:53Z" finished-at="2020-03-10T12:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerPage -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="32268" started-at="2020-03-10T12:48:53Z" finished-at="2020-03-10T12:49:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateOrderMessages()[pri:0, instance:com.shopcart.qa.testcases.OrdersPageTest@3ffc5af1]" name="validateOrderMessages" duration-ms="8678" started-at="2020-03-10T12:49:26Z" finished-at="2020-03-10T12:49:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateOrderMessages -->
-      </class> <!-- com.shopcart.qa.testcases.OrdersPageTest -->
-      <class name="com.shopcart.qa.testcases.CustomerPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="14038" started-at="2020-03-10T12:49:39Z" finished-at="2020-03-10T12:49:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="validateCustomerData" duration-ms="10578" started-at="2020-03-10T12:49:53Z" data-provider="getData" finished-at="2020-03-10T12:50:04Z">
+        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="validateCustomerData" duration-ms="16242" started-at="2020-03-11T12:17:07Z" data-provider="getData" finished-at="2020-03-11T12:17:23Z">
           <params>
             <param index="0">
               <value>
@@ -103,11 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCustomerData -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13854" started-at="2020-03-10T12:50:04Z" finished-at="2020-03-10T12:50:18Z">
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="1892" started-at="2020-03-11T12:17:23Z" finished-at="2020-03-11T12:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="19151" started-at="2020-03-11T12:17:25Z" finished-at="2020-03-11T12:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="validateCustomerData" duration-ms="9744" started-at="2020-03-10T12:50:18Z" data-provider="getData" finished-at="2020-03-10T12:50:27Z">
+        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="validateCustomerData" duration-ms="10218" started-at="2020-03-11T12:17:44Z" data-provider="getData" finished-at="2020-03-11T12:17:55Z">
           <params>
             <param index="0">
               <value>
@@ -133,11 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCustomerData -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13071" started-at="2020-03-10T12:50:27Z" finished-at="2020-03-10T12:50:40Z">
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="1109" started-at="2020-03-11T12:17:55Z" finished-at="2020-03-11T12:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="15836" started-at="2020-03-11T12:17:56Z" finished-at="2020-03-11T12:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="validateCustomerData" duration-ms="10156" started-at="2020-03-10T12:50:40Z" data-provider="getData" finished-at="2020-03-10T12:50:51Z">
+        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="validateCustomerData" duration-ms="10643" started-at="2020-03-11T12:18:12Z" data-provider="getData" finished-at="2020-03-11T12:18:22Z">
           <params>
             <param index="0">
               <value>
@@ -163,11 +105,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCustomerData -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="18283" started-at="2020-03-10T12:50:51Z" finished-at="2020-03-10T12:51:09Z">
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="794" started-at="2020-03-11T12:18:22Z" finished-at="2020-03-11T12:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="21499" started-at="2020-03-11T12:18:23Z" finished-at="2020-03-11T12:18:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="validateCustomerData" duration-ms="9560" started-at="2020-03-10T12:51:09Z" data-provider="getData" finished-at="2020-03-10T12:51:18Z">
+        <test-method status="PASS" signature="validateCustomerData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="validateCustomerData" duration-ms="11067" started-at="2020-03-11T12:18:45Z" data-provider="getData" finished-at="2020-03-11T12:18:56Z">
           <params>
             <param index="0">
               <value>
@@ -190,26 +136,204 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerData -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="2285" started-at="2020-03-11T12:18:56Z" finished-at="2020-03-11T12:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="20261" started-at="2020-03-11T12:18:58Z" finished-at="2020-03-11T12:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidatAddressesTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ValidatAddressesTest" duration-ms="7071" started-at="2020-03-11T12:19:18Z" finished-at="2020-03-11T12:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatAddressesTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="3007" started-at="2020-03-11T12:19:25Z" finished-at="2020-03-11T12:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="17245" started-at="2020-03-11T12:19:28Z" finished-at="2020-03-11T12:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidatGroupsTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ValidatGroupsTest" duration-ms="10148" started-at="2020-03-11T12:19:46Z" finished-at="2020-03-11T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatGroupsTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="2545" started-at="2020-03-11T12:19:56Z" finished-at="2020-03-11T12:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="19084" started-at="2020-03-11T12:19:58Z" finished-at="2020-03-11T12:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidatShippingCartsTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ValidatShippingCartsTest" duration-ms="8935" started-at="2020-03-11T12:20:17Z" finished-at="2020-03-11T12:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatShippingCartsTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="1750" started-at="2020-03-11T12:20:26Z" finished-at="2020-03-11T12:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="16626" started-at="2020-03-11T12:20:28Z" finished-at="2020-03-11T12:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidatCustomerServicesTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ValidatCustomerServicesTest" duration-ms="8473" started-at="2020-03-11T12:20:45Z" finished-at="2020-03-11T12:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatCustomerServicesTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="3292" started-at="2020-03-11T12:20:53Z" finished-at="2020-03-11T12:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="18741" started-at="2020-03-11T12:20:56Z" finished-at="2020-03-11T12:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidatContactsTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ValidatContactsTest" duration-ms="7673" started-at="2020-03-11T12:21:15Z" finished-at="2020-03-11T12:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatContactsTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="1352" started-at="2020-03-11T12:21:23Z" finished-at="2020-03-11T12:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="setUp" is-config="true" duration-ms="15029" started-at="2020-03-11T12:21:24Z" finished-at="2020-03-11T12:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatTittlesTest()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="validatTittlesTest" duration-ms="14110" started-at="2020-03-11T12:21:39Z" finished-at="2020-03-11T12:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatTittlesTest -->
+        <test-method status="PASS" signature="ExitPath()[pri:0, instance:com.shopcart.qa.testcases.TC_E_CustomerPageTest@4b4523f8]" name="ExitPath" is-config="true" duration-ms="1121" started-at="2020-03-11T12:21:53Z" finished-at="2020-03-11T12:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitPath -->
+      </class> <!-- com.shopcart.qa.testcases.TC_E_CustomerPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_C_CatalogPageTest1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="15631" started-at="2020-03-11T12:09:36Z" finished-at="2020-03-11T12:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productCatalogTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="productCatalogTest" duration-ms="23073" started-at="2020-03-11T12:09:52Z" data-provider="getTestData" finished-at="2020-03-11T12:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sonu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[435.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCatalogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="1020" started-at="2020-03-11T12:10:15Z" finished-at="2020-03-11T12:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="19355" started-at="2020-03-11T12:10:16Z" finished-at="2020-03-11T12:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productCatalogTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="productCatalogTest" duration-ms="13434" started-at="2020-03-11T12:10:36Z" data-provider="getTestData" finished-at="2020-03-11T12:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[789.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCatalogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="1608" started-at="2020-03-11T12:10:49Z" finished-at="2020-03-11T12:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="15478" started-at="2020-03-11T12:10:51Z" finished-at="2020-03-11T12:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="productCatalogTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="productCatalogTest" duration-ms="37712" started-at="2020-03-11T12:11:06Z" data-provider="getTestData" finished-at="2020-03-11T12:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arthy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[741.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[564.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[741.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#page-header-desc-product-new_product"}
   (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c90c031563687d0aa2866efdae8bf51c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 460527870bfab1d02ccb8dc1c08a5065
+*** Element info: {Using=css selector, value=#page-header-desc-product-new_product}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#page-header-desc-product-new_product"}
   (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c90c031563687d0aa2866efdae8bf51c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 460527870bfab1d02ccb8dc1c08a5065
+*** Element info: {Using=css selector, value=#page-header-desc-product-new_product}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -220,10 +344,15 @@ Session ID: c90c031563687d0aa2866efdae8bf51c
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.shopcart.qa.pages.CustomerPage.addNewCustomerFromExcel(CustomerPage.java:45)
-	at com.shopcart.qa.testcases.CustomerPageTest.validateCustomerData(CustomerPageTest.java:44)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.shopcart.qa.pages.CatalogPage1.VerifyNewProductByExcel(CatalogPage1.java:112)
+	at com.shopcart.qa.testcases.TC_C_CatalogPageTest1.productCatalogTest(TC_C_CatalogPageTest1.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -250,59 +379,626 @@ Session ID: c90c031563687d0aa2866efdae8bf51c
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCustomerData -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13564" started-at="2020-03-10T12:51:18Z" finished-at="2020-03-10T12:51:32Z">
+        </test-method> <!-- productCatalogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="1446" started-at="2020-03-11T12:11:46Z" finished-at="2020-03-11T12:11:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidatAddressesTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="ValidatAddressesTest" duration-ms="6858" started-at="2020-03-10T12:51:32Z" finished-at="2020-03-10T12:51:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidatAddressesTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="14982" started-at="2020-03-10T12:51:39Z" finished-at="2020-03-10T12:51:54Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="16983" started-at="2020-03-11T12:11:47Z" finished-at="2020-03-11T12:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidatGroupsTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="ValidatGroupsTest" duration-ms="6684" started-at="2020-03-10T12:51:54Z" finished-at="2020-03-10T12:52:01Z">
+        <test-method status="PASS" signature="productCatalogTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="productCatalogTest" duration-ms="14766" started-at="2020-03-11T12:12:04Z" data-provider="getTestData" finished-at="2020-03-11T12:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shilpa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[890.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[963.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[58523.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatGroupsTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13038" started-at="2020-03-10T12:52:01Z" finished-at="2020-03-10T12:52:14Z">
+        </test-method> <!-- productCatalogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="4149" started-at="2020-03-11T12:12:19Z" finished-at="2020-03-11T12:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="14416" started-at="2020-03-11T12:12:23Z" finished-at="2020-03-11T12:12:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidatShippingCartsTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="ValidatShippingCartsTest" duration-ms="6722" started-at="2020-03-10T12:52:14Z" finished-at="2020-03-10T12:52:20Z">
+        <test-method status="PASS" signature="catagoryTest()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="catagoryTest" duration-ms="5292" started-at="2020-03-11T12:12:37Z" finished-at="2020-03-11T12:12:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatShippingCartsTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="16953" started-at="2020-03-10T12:52:20Z" finished-at="2020-03-10T12:52:37Z">
+        </test-method> <!-- catagoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="6031" started-at="2020-03-11T12:12:43Z" finished-at="2020-03-11T12:12:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidatCustomerServicesTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="ValidatCustomerServicesTest" duration-ms="6890" started-at="2020-03-10T12:52:37Z" finished-at="2020-03-10T12:52:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidatCustomerServicesTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="14563" started-at="2020-03-10T12:52:44Z" finished-at="2020-03-10T12:52:59Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="18347" started-at="2020-03-11T12:12:49Z" finished-at="2020-03-11T12:13:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidatContactsTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="ValidatContactsTest" duration-ms="7515" started-at="2020-03-10T12:52:59Z" finished-at="2020-03-10T12:53:06Z">
+        <test-method status="PASS" signature="TrackingTest()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="TrackingTest" duration-ms="7959" started-at="2020-03-11T12:13:07Z" finished-at="2020-03-11T12:13:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatContactsTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="12873" started-at="2020-03-10T12:53:06Z" finished-at="2020-03-10T12:53:19Z">
+        </test-method> <!-- TrackingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="1890" started-at="2020-03-11T12:13:15Z" finished-at="2020-03-11T12:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="setUp" is-config="true" duration-ms="14534" started-at="2020-03-11T12:13:17Z" finished-at="2020-03-11T12:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatTittlesTest()[pri:0, instance:com.shopcart.qa.testcases.CustomerPageTest@1bce4f0a]" name="validatTittlesTest" duration-ms="5104" started-at="2020-03-10T12:53:19Z" finished-at="2020-03-10T12:53:24Z">
+        <test-method status="PASS" signature="OrdersPage()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="OrdersPage" duration-ms="423" started-at="2020-03-11T12:13:31Z" finished-at="2020-03-11T12:13:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatTittlesTest -->
-      </class> <!-- com.shopcart.qa.testcases.CustomerPageTest -->
+        </test-method> <!-- OrdersPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_C_CatalogPageTest1@63753b6d]" name="tearDown" is-config="true" duration-ms="941" started-at="2020-03-11T12:13:32Z" finished-at="2020-03-11T12:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopcart.qa.testcases.TC_C_CatalogPageTest1 -->
+      <class name="com.shopcart.qa.testcases.TC_A_LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="60652" started-at="2020-03-11T12:00:34Z" finished-at="2020-03-11T12:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="loginTest" duration-ms="4578" started-at="2020-03-11T12:01:35Z" finished-at="2020-03-11T12:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="2796" started-at="2020-03-11T12:01:39Z" finished-at="2020-03-11T12:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="29125" started-at="2020-03-11T12:01:42Z" finished-at="2020-03-11T12:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="loginPageTitleTest" duration-ms="166" started-at="2020-03-11T12:02:11Z" finished-at="2020-03-11T12:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="550" started-at="2020-03-11T12:02:12Z" finished-at="2020-03-11T12:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="15765" started-at="2020-03-11T12:02:12Z" finished-at="2020-03-11T12:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ShoplogoImg()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="ShoplogoImg" duration-ms="394" started-at="2020-03-11T12:02:28Z" finished-at="2020-03-11T12:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoplogoImg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="775" started-at="2020-03-11T12:02:28Z" finished-at="2020-03-11T12:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="31519" started-at="2020-03-11T12:02:29Z" finished-at="2020-03-11T12:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ShopVersionTest()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="ShopVersionTest" duration-ms="236" started-at="2020-03-11T12:03:01Z" finished-at="2020-03-11T12:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopVersionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="693" started-at="2020-03-11T12:03:01Z" finished-at="2020-03-11T12:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="20701" started-at="2020-03-11T12:03:01Z" finished-at="2020-03-11T12:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ShopcartImgTest()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="ShopcartImgTest" duration-ms="74" started-at="2020-03-11T12:03:22Z" finished-at="2020-03-11T12:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcartImgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="1270" started-at="2020-03-11T12:03:22Z" finished-at="2020-03-11T12:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="setUp" is-config="true" duration-ms="17577" started-at="2020-03-11T12:03:24Z" finished-at="2020-03-11T12:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="HomePage" duration-ms="135" started-at="2020-03-11T12:03:41Z" finished-at="2020-03-11T12:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_A_LoginPageTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="611" started-at="2020-03-11T12:03:41Z" finished-at="2020-03-11T12:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopcart.qa.testcases.TC_A_LoginPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_D_OrdersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="15422" started-at="2020-03-11T12:13:33Z" finished-at="2020-03-11T12:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateOrders()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateOrders" duration-ms="6424" started-at="2020-03-11T12:13:48Z" finished-at="2020-03-11T12:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="1198" started-at="2020-03-11T12:13:55Z" finished-at="2020-03-11T12:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="15265" started-at="2020-03-11T12:13:56Z" finished-at="2020-03-11T12:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvoice()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateInvoice" duration-ms="7902" started-at="2020-03-11T12:14:11Z" finished-at="2020-03-11T12:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="389" started-at="2020-03-11T12:14:19Z" finished-at="2020-03-11T12:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="15715" started-at="2020-03-11T12:14:19Z" finished-at="2020-03-11T12:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateMerchandise_Returns()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateMerchandise_Returns" duration-ms="6685" started-at="2020-03-11T12:14:35Z" finished-at="2020-03-11T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMerchandise_Returns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="1812" started-at="2020-03-11T12:14:42Z" finished-at="2020-03-11T12:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="16535" started-at="2020-03-11T12:14:44Z" finished-at="2020-03-11T12:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateDeliverySlips()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateDeliverySlips" duration-ms="14909" started-at="2020-03-11T12:15:00Z" finished-at="2020-03-11T12:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeliverySlips -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="827" started-at="2020-03-11T12:15:15Z" finished-at="2020-03-11T12:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="16104" started-at="2020-03-11T12:15:16Z" finished-at="2020-03-11T12:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreditSlips()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateCreditSlips" duration-ms="9257" started-at="2020-03-11T12:15:32Z" finished-at="2020-03-11T12:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreditSlips -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="395" started-at="2020-03-11T12:15:41Z" finished-at="2020-03-11T12:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="15241" started-at="2020-03-11T12:15:42Z" finished-at="2020-03-11T12:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateStatuses()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateStatuses" duration-ms="10347" started-at="2020-03-11T12:15:57Z" finished-at="2020-03-11T12:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatuses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="819" started-at="2020-03-11T12:16:07Z" finished-at="2020-03-11T12:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="17287" started-at="2020-03-11T12:16:08Z" finished-at="2020-03-11T12:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerPage()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="customerPage" duration-ms="2" started-at="2020-03-11T12:16:25Z" finished-at="2020-03-11T12:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="465" started-at="2020-03-11T12:16:25Z" finished-at="2020-03-11T12:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="setUp" is-config="true" duration-ms="15796" started-at="2020-03-11T12:16:26Z" finished-at="2020-03-11T12:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateOrderMessages()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="validateOrderMessages" duration-ms="8280" started-at="2020-03-11T12:16:42Z" finished-at="2020-03-11T12:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderMessages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_D_OrdersPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="2465" started-at="2020-03-11T12:16:50Z" finished-at="2020-03-11T12:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopcart.qa.testcases.TC_D_OrdersPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_B_HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="33552" started-at="2020-03-11T12:03:42Z" finished-at="2020-03-11T12:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifyHomePageTitleTest" duration-ms="14" started-at="2020-03-11T12:04:15Z" finished-at="2020-03-11T12:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="1517" started-at="2020-03-11T12:04:15Z" finished-at="2020-03-11T12:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="51724" started-at="2020-03-11T12:04:17Z" finished-at="2020-03-11T12:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyCartTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifyCartTest" duration-ms="47793" started-at="2020-03-11T12:05:09Z" finished-at="2020-03-11T12:05:56Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b30669c9cbef867915a9d3ed3195fd34
+*** Element info: {Using=css selector, value=i.icon-shopping-cart}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b30669c9cbef867915a9d3ed3195fd34
+*** Element info: {Using=css selector, value=i.icon-shopping-cart}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.shopcart.qa.util.WaitUtil.waitForElement(WaitUtil.java:48)
+	at com.shopcart.qa.pages.HomePage.validCart(HomePage.java:60)
+	at com.shopcart.qa.testcases.TC_B_HomePageTest.verifyCartTest(TC_B_HomePageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="2069" started-at="2020-03-11T12:05:58Z" finished-at="2020-03-11T12:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="24117" started-at="2020-03-11T12:06:00Z" finished-at="2020-03-11T12:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyQuickAcessTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifyQuickAcessTest" duration-ms="7292" started-at="2020-03-11T12:06:24Z" finished-at="2020-03-11T12:06:31Z">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55156}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8781dfacdca35e2fffbffc475644021]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55156}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8781dfacdca35e2fffbffc475644021
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+	at com.shopcart.qa.pages.HomePage.clickOnQuickAcessLink(HomePage.java:68)
+	at com.shopcart.qa.testcases.TC_B_HomePageTest.verifyQuickAcessTest(TC_B_HomePageTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickAcessTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="1048" started-at="2020-03-11T12:06:32Z" finished-at="2020-03-11T12:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="13242" started-at="2020-03-11T12:06:33Z" finished-at="2020-03-11T12:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifySystemAdminLinkTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifySystemAdminLinkTest" duration-ms="44777" started-at="2020-03-11T12:06:46Z" finished-at="2020-03-11T12:07:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"a#header_logout1"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: febf74d3792baaa690c9647f55073278
+*** Element info: {Using=css selector, value=a#header_logout1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a#header_logout1"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: febf74d3792baaa690c9647f55073278
+*** Element info: {Using=css selector, value=a#header_logout1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.shopcart.qa.pages.HomePage.clickOnSystemAdminLink(HomePage.java:74)
+	at com.shopcart.qa.testcases.TC_B_HomePageTest.verifySystemAdminLinkTest(TC_B_HomePageTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySystemAdminLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="640" started-at="2020-03-11T12:07:32Z" finished-at="2020-03-11T12:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="18303" started-at="2020-03-11T12:07:32Z" finished-at="2020-03-11T12:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHelpLinkTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifyHelpLinkTest" duration-ms="6640" started-at="2020-03-11T12:07:51Z" finished-at="2020-03-11T12:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="2371" started-at="2020-03-11T12:07:57Z" finished-at="2020-03-11T12:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="17394" started-at="2020-03-11T12:08:00Z" finished-at="2020-03-11T12:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDashbrdTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="verifyDashbrdTest" duration-ms="6773" started-at="2020-03-11T12:08:17Z" finished-at="2020-03-11T12:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashbrdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="989" started-at="2020-03-11T12:08:24Z" finished-at="2020-03-11T12:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="16891" started-at="2020-03-11T12:08:25Z" finished-at="2020-03-11T12:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="menuListSizeTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="menuListSizeTest" duration-ms="5456" started-at="2020-03-11T12:08:42Z" finished-at="2020-03-11T12:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuListSizeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="409" started-at="2020-03-11T12:08:47Z" finished-at="2020-03-11T12:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="17972" started-at="2020-03-11T12:08:48Z" finished-at="2020-03-11T12:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="searchMenuTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="searchMenuTest" duration-ms="6597" started-at="2020-03-11T12:09:06Z" finished-at="2020-03-11T12:09:12Z">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b2ff0915629f831e0ea68efd0657577]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5E3MODR9', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BS146TU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b2ff0915629f831e0ea68efd0657577
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.shopcart.qa.util.TestUtil.actions(TestUtil.java:21)
+	at com.shopcart.qa.pages.HomePage.searchMenu(HomePage.java:100)
+	at com.shopcart.qa.testcases.TC_B_HomePageTest.searchMenuTest(TC_B_HomePageTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="449" started-at="2020-03-11T12:09:13Z" finished-at="2020-03-11T12:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="17505" started-at="2020-03-11T12:09:13Z" finished-at="2020-03-11T12:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CatalogPageTest()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="CatalogPageTest" duration-ms="2" started-at="2020-03-11T12:09:31Z" finished-at="2020-03-11T12:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatalogPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.qa.testcases.TC_B_HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="2394" started-at="2020-03-11T12:09:31Z" finished-at="2020-03-11T12:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopcart.qa.testcases.TC_B_HomePageTest -->
     </test> <!-- ShopCart_Test -->
   </suite> <!-- ShopCart Application suit -->
 </testng-results>

@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ShopCart Application suit]">
+  <listeners>
+    <listener class-name="com.shopcart.qa.util.TestNGListeners"/>
+  </listeners>
   <test name="ShopCart_Test(failed)">
     <classes>
-      <class name="com.shopcart.qa.testcases.OrdersPageTest">
+      <class name="com.shopcart.qa.testcases.TC_C_CatalogPageTest1">
         <methods>
+          <include name="tearDown"/>
+          <include name="productCatalogTest" invocation-numbers="2"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.shopcart.qa.testcases.OrdersPageTest -->
-      <class name="com.shopcart.qa.testcases.CustomerPageTest">
+      </class> <!-- com.shopcart.qa.testcases.TC_C_CatalogPageTest1 -->
+      <class name="com.shopcart.qa.testcases.TC_D_OrdersPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="validateCustomerData" invocation-numbers="3"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.shopcart.qa.testcases.CustomerPageTest -->
+      </class> <!-- com.shopcart.qa.testcases.TC_D_OrdersPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_B_HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyQuickAcessTest"/>
+          <include name="setUp"/>
+          <include name="verifyCartTest"/>
+          <include name="searchMenuTest"/>
+          <include name="verifySystemAdminLinkTest"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.TC_B_HomePageTest -->
+      <class name="com.shopcart.qa.testcases.TC_E_CustomerPageTest">
+        <methods>
+          <include name="ExitPath"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.TC_E_CustomerPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_A_LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.TC_A_LoginPageTest -->
     </classes>
   </test> <!-- ShopCart_Test(failed) -->
 </suite> <!-- Failed suite [ShopCart Application suit] -->

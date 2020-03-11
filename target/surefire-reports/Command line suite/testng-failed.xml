@@ -3,38 +3,55 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.shopcart.qa.testcases.LoginPageTest">
+      <class name="com.shopcart.qa.testcases.TC_A_LoginPageTest">
         <methods>
+          <include name="ShoplogoImg"/>
+          <include name="ShopVersionTest"/>
+          <include name="HomePage"/>
           <include name="tearDown"/>
+          <include name="ShopcartImgTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.shopcart.qa.testcases.LoginPageTest -->
-      <class name="com.shopcart.qa.testcases.CustomerPageTest">
+      </class> <!-- com.shopcart.qa.testcases.TC_A_LoginPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_E_CustomerPageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="ValidatCustomerServicesTest"/>
           <include name="ExitPath"/>
           <include name="ValidatContactsTest"/>
-        </methods>
-      </class> <!-- com.shopcart.qa.testcases.CustomerPageTest -->
-      <class name="com.shopcart.qa.testcases.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
+          <include name="ValidatAddressesTest"/>
           <include name="setUp"/>
+          <include name="ValidatGroupsTest"/>
+          <include name="ValidatShippingCartsTest"/>
+          <include name="validatTittlesTest"/>
+          <include name="validateCustomerData" invocation-numbers="3"/>
         </methods>
-      </class> <!-- com.shopcart.qa.testcases.HomePageTest -->
-      <class name="com.shopcart.qa.testcases.OrdersPageTest">
+      </class> <!-- com.shopcart.qa.testcases.TC_E_CustomerPageTest -->
+      <class name="com.shopcart.qa.testcases.TC_B_HomePageTest">
         <methods>
-          <include name="validateOrders"/>
-          <include name="validateInvoice"/>
-          <include name="validateStatuses"/>
-          <include name="validateCreditSlips"/>
           <include name="tearDown"/>
+          <include name="verifyDashbrdTest"/>
+          <include name="verifyQuickAcessTest"/>
+          <include name="verifyHelpLinkTest"/>
+          <include name="menuListSizeTest"/>
+          <include name="setUp"/>
+          <include name="searchMenuTest"/>
+          <include name="CatalogPageTest"/>
+          <include name="verifySystemAdminLinkTest"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.TC_B_HomePageTest -->
+      <class name="com.shopcart.qa.testcases.TC_D_OrdersPageTest">
+        <methods>
           <include name="setUp"/>
           <include name="validateOrderMessages"/>
+          <include name="validateCreditSlips"/>
+          <include name="tearDown"/>
+          <include name="validateStatuses"/>
+          <include name="validateInvoice"/>
+          <include name="customerPage"/>
           <include name="validateDeliverySlips"/>
           <include name="validateMerchandise_Returns"/>
         </methods>
-      </class> <!-- com.shopcart.qa.testcases.OrdersPageTest -->
+      </class> <!-- com.shopcart.qa.testcases.TC_D_OrdersPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
