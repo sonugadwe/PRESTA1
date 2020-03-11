@@ -32,19 +32,20 @@ public class TC_B_HomePageTest extends TestBase {
 	public void verifyHomePageTitleTest() {
 		String expectedTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(expectedTitle, "SHOPCART > Administration panel (PrestaShop™)");
-		System.out.println("Verify HomePage Title:" + expectedTitle);
+		log.info("Verify HomePage Title:" + expectedTitle);
 	}
 
 	@Test(priority = 2)
 	public void verifyCartTest() {
 		homePage.validCart();
-		System.out.println("No new orders have been placed in cart");
+		log.info("No new orders have been placed in cart");
 
 	}
 
 	@Test(priority = 3)
 	public void verifyQuickAcessTest() {
 		homePage.clickOnQuickAcessLink();
+		log.info("Quick Acces open");
 	}
 
 	@Test(priority = 4)
@@ -55,6 +56,7 @@ public class TC_B_HomePageTest extends TestBase {
 	@Test(priority = 5)
 	public void verifyHelpLinkTest() {
 		homePage.clickOnHelpLink();
+		log.info("Help Link open");
 	}
 
 	/*
@@ -65,21 +67,25 @@ public class TC_B_HomePageTest extends TestBase {
 	@Test(priority = 7)
 	public void verifyDashbrdTest() {
 		homePage.validDashBrd();
+		log.info("Dashoboard is verify");
 	}
 
 	@Test(priority = 8)
 	public void menuListSizeTest() {
 		homePage.checkSizeOfMenuList();
+		
 	}
 
 	@Test(priority = 9)
 	public void searchMenuTest() {
 		homePage.searchMenu();
+		log.info("Search menu open");
 	}
 
 	@Test(priority = 10)
 	public void CatalogPageTest() {
 		catalogPage1 = homePage.clickOnCatalogLink();
+		log.info("catalog link open");
 	}
 
 	@AfterMethod

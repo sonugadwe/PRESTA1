@@ -1,6 +1,11 @@
 package com.shopcart.qa.util;
 
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -36,6 +41,16 @@ public class TestUtil {
 		s.selectByVisibleText(data);
 
 	}
+	
+	public static String takeScreenshotAtEndOfTest(WebDriver driver, String screenShotPath) throws Exception {
+		//	TakesScreenshot ts = (TakesScreenshot) Login_TestCase.driver;
+			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String screenshotName="TestReport";
+			String dest = System.getProperty("user.dir") + "/Errorscreenshot/" + screenshotName + ".png";
+			File destination = new File(dest);
+			FileUtils.copyFile(source, destination);
+			return dest;
+		}
 
 	}
 

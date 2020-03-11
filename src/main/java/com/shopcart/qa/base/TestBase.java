@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,6 +14,8 @@ import com.shopcart.qa.util.TestUtil;
 public class TestBase {
 	public static Properties prop = null;
 	public static WebDriver driver;
+	public static Logger log = Logger.getLogger(TestBase.class);
+
 
 	public TestBase() {
 		try {

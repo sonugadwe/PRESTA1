@@ -32,19 +32,19 @@ public class TC_A_LoginPageTest extends TestBase {
 	public void loginPageTitleTest() {
 		String title = loginPage.validLoginPageTitle();
 		Assert.assertEquals(title, "SHOPCART > Administration panel (PrestaShop™)");
-		System.out.println("Title is verified");
+		log.info("Title is verified");
 	}
 	@Test(priority=3)
 	public void ShoplogoImg() {
 		boolean logo = loginPage.validShoplogoImg();
 		Assert.assertTrue(logo);
-		System.out.println("ShoplogoImg is verified");
+		log.info("ShoplogoImg is verified");
 	}
 
 	@Test(priority=4)
 	public void ShopVersionTest() {
 		Assert.assertTrue(loginPage.validShopVersion());
-		System.out.println("ShopVersion is verified");
+		log.info("ShopVersion is verified");
 
 	}
 	
@@ -52,7 +52,7 @@ public class TC_A_LoginPageTest extends TestBase {
 	public void ShopcartImgTest() {
 		boolean img = loginPage.validShoplogoImg();
 		Assert.assertTrue(img);
-		System.out.println("ShopcartImg is verified");
+		log.info("ShopcartImg is verified");
 
 	}
 	@Test(priority=6)
