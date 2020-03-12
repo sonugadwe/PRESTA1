@@ -9,8 +9,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.shopcart.qa.base.TestBase;
 import com.shopcart.qa.util.TestUtil;
-import com.shopcart.qa.util.Utils;
-import com.shopcart.qa.util.WaitUtil;
 
 public class CatalogPage1 extends TestBase {
 

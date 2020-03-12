@@ -1,9 +1,10 @@
-2020-03-11 12:53:37,280  INFO [main] TestBase:35 - Verify HomePage Title:SHOPCART > Administration panel (PrestaShop™)
-2020-03-11 13:00:31,454  INFO [main] TestBase:35 - Title is verified
-2020-03-11 13:00:59,762  INFO [main] TestBase:41 - No new orders have been placed in cart
-2020-03-11 13:02:27,582  INFO [main] TestBase:41 - ShoplogoImg is verified
-2020-03-11 13:06:37,097  INFO [main] TestBase:47 - ShopVersion is verified
-2020-03-11 13:09:52,367  INFO [main] TestBase:55 - ShopcartImg is verified
-2020-03-11 13:10:41,047  INFO [main] TestBase:59 - Help Link open
-2020-03-11 13:15:41,797  INFO [main] TestBase:70 - Dashoboard is verify
-2020-03-11 13:20:42,451  INFO [main] TestBase:88 - catalog link open
+2020-03-11 17:23:21,635  INFO [main] TestBase:35 - Verify HomePage Title:SHOPCART > Administration panel (PrestaShop™)
+2020-03-11 17:29:19,104  INFO [main] TestBase:35 - Title is verified
+2020-03-11 17:30:34,114  INFO [main] TestBase:41 - No new orders have been placed in cart
+2020-03-11 17:33:56,504  INFO [main] TestBase:41 - ShoplogoImg is verified
+2020-03-11 17:35:35,103  INFO [main] TestBase:48 - Quick Acces open
+2020-03-11 17:38:47,272  INFO [main] TestBase:47 - ShopVersion is verified
+2020-03-11 17:42:30,233  INFO [main] TestBase:55 - ShopcartImg is verified
+2020-03-11 17:42:51,477  INFO [main] TestBase:59 - Help Link open
+2020-03-11 17:47:41,987  INFO [main] TestBase:70 - Dashoboard is verify
+2020-03-11 17:53:58,035  INFO [main] TestBase:88 - catalog link open

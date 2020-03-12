@@ -3,7 +3,6 @@ package com.shopcart.qa.pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -63,8 +62,7 @@ public class HomePage extends TestBase{
 	public void clickOnQuickAcessLink() {
 		TestUtil.actions(quickAcess, driver);
 		WaitUtil.waitForElement(driver, 5, quickAcess);
-		act.moveToElement(driver.findElement(By.cssSelector("#header_quick > li > ul > li:nth-child(3) > a")))
-				.click();
+		act.moveToElement(driver.findElement(By.cssSelector("#header_quick > li > ul > li:nth-child(3) > a"))).click().build().perform();
 		
 	 //TestUtil.actions(driver.findElement(By.cssSelector("#header_quick > li > ul > li:nth-child(3) > a")), driver);
 	}
@@ -96,11 +94,13 @@ public class HomePage extends TestBase{
 
 	public void searchMenu() {
 		driver.findElement(By.xpath("//input[@id='bo_query']")).click();
-		TestUtil.actions(searchButton, driver);
-		searchButton.click();
+		act.moveToElement(searchButton).click().build().perform();
+		//TestUtil.actions(searchButton, driver);
+		//searchButton.click();
 		WaitUtil.waitForElement(driver, searchButton, 3);
-		TestUtil.actions(searchInvoice, driver);
-		searchInvoice.click();
+		act.moveToElement(searchInvoice).click().build().perform();
+		//TestUtil.actions(searchInvoice, driver);
+		//searchInvoice.click();
 	}
 
 	public CatalogPage1 clickOnCatalogLink() {
